@@ -9,7 +9,7 @@
     "article": { "kicker": "{minutes} 分で読めます", "learn": "学ぶ" }
   },
   "Metadata": {
-    "title": "WordCanvas3D · AI が文章を読むしくみを見てみよう",
+    "title": "ToKens · AI が文章を読むしくみを見てみよう",
     "description": "AI が文章を読むしくみを体験できる無料のインタラクティブなプレイグラウンド。文章をトークンに分割し、単語の埋め込みを 3D で探索し、意味でベクトル計算をして、言語モデルのしくみを学べます。",
     "keywords": ["トークナイザー", "トークン数", "単語埋め込み", "埋め込み 可視化", "ベクトル演算", "king - man + woman", "PCA", "UMAP", "GloVe", "Word2Vec", "FastText", "大規模言語モデル しくみ", "Transformer", "アテンション", "AI 入門"],
     "ogLocale": "ja_JP"
@@ -23,10 +23,10 @@
     "openMenu": "メニューを開く",
     "closeMenu": "メニューを閉じる",
     "drawerTitle": "ナビゲーション",
-    "drawerDescription": "WordCanvas3D のページ",
+    "drawerDescription": "ToKens のページ",
     "sourceCode": "GitHub のソースコード",
     "madeBy": "作者: @Akage",
-    "repoLabel": "GitHub の WordCanvas3D",
+    "repoLabel": "GitHub の ToKens",
     "authorLabel": "作者 @Akage について",
     "languageLabel": "言語: 日本語"
   },
@@ -40,7 +40,7 @@
       ["意味で", "計算しよう。"],
       ["どの単語にも", "居場所がある。"]
     ],
-    "pitch": "<strong>WordCanvas3D</strong> は、AI が文章を理解するしくみを体験できる無料のプレイグラウンドです。トークンに分け、3D で眺め、意味で計算する。すべてブラウザの中で完結します。",
+    "pitch": "<strong>ToKens</strong> は、AI が文章を理解するしくみを体験できる無料のプレイグラウンドです。トークンに分け、3D で眺め、意味で計算する。すべてブラウザの中で完結します。",
     "exploreCta": "埋め込みを探索",
     "tokenizeCta": "文章をトークン化",
     "tokenizeChips": ["Token", "ize", " text"],
@@ -75,10 +75,10 @@
     "oss": {
       "kicker": "オープンソース",
       "title": "オープンに開発。",
-      "sub": "WordCanvas3D のコードはすべて GitHub で公開しています。しくみを読んだり、ローカルで動かしたり、issue を立てたり、pull request を送ったりしてみてください。",
+      "sub": "ToKens のコードはすべて GitHub で公開しています。しくみを読んだり、ローカルで動かしたり、issue を立てたり、pull request を送ったりしてみてください。",
       "github": "GitHub で見る",
       "star": "リポジトリにスターを付ける",
-      "terminalLabel": "WordCanvas3D をローカルで動かすコマンド",
+      "terminalLabel": "ToKens をローカルで動かすコマンド",
       "terminalComment": "# 自分のマシンで動かす",
       "ready": "✓ http://localhost:3000 で起動しました"
     },
@@ -88,21 +88,21 @@
       "sub": "無料、広告なし、登録不要。役に立ったら、友だちにも教えてあげてください。"
     },
     "footer": {
-      "copyright": "© 2026 WordCanvas3D",
+      "copyright": "© 2026 ToKens",
       "madeWith": "<author>@Akage</author> が <heart></heart> を込めて制作",
       "love": "愛"
     }
   },
   "Share": {
-    "text": "WordCanvas3D: AI が文章を読むしくみを見てみよう。トークンに分け、単語を 3D で眺め、意味で計算。ブラウザで無料で使えます。",
-    "button": "WordCanvas3D をシェア",
+    "text": "ToKens: AI が文章を読むしくみを見てみよう。トークンに分け、単語を 3D で眺め、意味で計算。ブラウザで無料で使えます。",
+    "button": "ToKens をシェア",
     "copied": "リンクをコピーしました",
     "shareOn": "または次でシェア"
   },
   "Learn": {
     "title": "学ぶ",
     "metaTitle": "学ぶ: 言語モデルが文章を読むしくみ",
-    "description": "言語モデルが文章を読むしくみを初心者向けに解説した記事集。トークン、埋め込み、アテンション、Transformer に加えて、WordCanvas3D の各ツールのクイックガイドもあります。",
+    "description": "言語モデルが文章を読むしくみを初心者向けに解説した記事集。トークン、埋め込み、アテンション、Transformer に加えて、ToKens の各ツールのクイックガイドもあります。",
     "heading": "目の前のものを理解しよう。",
     "sub": "言語モデルが文章を読むしくみを、最初のステップからモデルが書く次の単語まで。",
     "sectionsLabel": "このページのセクション",
@@ -128,7 +128,7 @@
     "tracks": {
       "start": { "title": "ここから始めよう", "blurb": "予備知識は不要です。あなたの文章からモデルの答えまでの全体の流れを、1 枚の図で。" },
       "foundations": { "title": "基礎", "blurb": "一般的な学習用の教材です。良い教科書の 1 章のように、各記事で 1 つの考え方をしっかり説明します。" },
-      "guides": { "title": "サイトガイド", "blurb": "WordCanvas3D の各ツールで何が見えるのかを手短に紹介し、基礎の記事へのリンクも付けています。" }
+      "guides": { "title": "サイトガイド", "blurb": "ToKens の各ツールで何が見えるのかを手短に紹介し、基礎の記事へのリンクも付けています。" }
     },
     "back": "← 学ぶ · {track}",
     "tryIt": "自分で試してみよう",

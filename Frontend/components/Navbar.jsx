@@ -81,7 +81,7 @@ function LanguageMenu({ variant = "icon", compact }) {
             className={`flex items-center justify-between rounded-xl px-3 py-2 text-sm transition-colors ${code === locale ? "bg-white/[0.06] text-white" : "text-neutral-300 hover:bg-white/[0.04] hover:text-white"}`}
           >
             {name}
-            {code === locale && <Check className="h-4 w-4 text-cyan-300" />}
+            {code === locale && <Check className="h-4 w-4 text-[#DF2A36]" />}
           </Link>
         ))}
       </PopoverContent>
@@ -119,7 +119,7 @@ function SocialLinks({ variant = "icons", compact }) {
 }
 
 const glass = "bg-black/40 supports-[backdrop-filter]:bg-black/30 backdrop-blur-xl backdrop-saturate-150 border border-white/10 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.8),inset_0_1px_0_rgba(255,255,255,0.06)]";
-const focusRing = "outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black";
+const focusRing = "outline-none focus-visible:ring-2 focus-visible:ring-[#DF2A36]/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black";
 
 function Logo({ size = "md", onClick }) {
   const sizes = {
@@ -130,8 +130,8 @@ function Logo({ size = "md", onClick }) {
   return (
     <Link href="/" onClick={onClick} className={`group flex items-center font-bold tracking-tight rounded-full ${sizes[0]} ${focusRing}`}>
       <img src="/logo.png" alt="" className={`${sizes[1]} flex-shrink-0 transition-transform duration-500 ease-out group-hover:rotate-[-18deg] group-hover:scale-105`} />
-      Word
-      <span className="bg-gradient-to-r from-blue-400 via-sky-300 to-cyan-300 bg-clip-text text-transparent">Canvas3D</span>
+      To
+      <span className="bg-gradient-to-r from-[#DF2A36] via-[#B3B6B7] to-[#0B3C49] bg-clip-text text-transparent">Kens</span>
     </Link>
   );
 }
@@ -148,7 +148,7 @@ function DesktopLinks({ isActive, compact }) {
               href={href}
               aria-current={active ? "page" : undefined}
               className={`block whitespace-nowrap rounded-full font-medium tracking-[-0.01em] transition-colors duration-200 ${compact ? "px-3 py-1.5 text-sm" : "px-2.5 min-[1280px]:px-3.5 py-2 text-sm min-[1280px]:text-[15px]"} ${focusRing} ${
-                active ? "bg-white/[0.08] text-white" : "text-neutral-400 hover:bg-white/[0.05] hover:text-neutral-100"
+                active ? "bg-[#DF2A36]/15 text-[#E6EED6] ring-1 ring-[#DF2A36]/40 shadow-[0_0_12px_rgba(223,42,54,0.25)]" : "text-neutral-400 hover:bg-white/[0.05] hover:text-neutral-100"
               }`}
             >
               {t(`${id}.label`)}
@@ -200,18 +200,18 @@ function MobileMenu({ isActive, triggerClassName }) {
                   style={{ animationDelay: `${60 + i * 50}ms` }}
                   className={`group flex items-center gap-3.5 rounded-2xl border px-3.5 py-3 transition-colors duration-200 animate-in fade-in slide-in-from-right-4 fill-mode-both ${focusRing} ${
                     active
-                      ? "border-cyan-300/25 bg-cyan-300/[0.07] text-white"
+                      ? "border-[#DF2A36]/30 bg-[#DF2A36]/[0.08] text-[#E6EED6]"
                       : "border-transparent text-neutral-300 hover:bg-white/[0.05] hover:text-white active:bg-white/10"
                   }`}
                 >
-                  <span className={`grid h-10 w-10 flex-none place-items-center rounded-xl border transition-colors ${active ? "border-cyan-300/30 bg-cyan-300/10 text-cyan-200" : "border-white/10 bg-white/[0.03] text-neutral-400 group-hover:text-neutral-200"}`}>
+                  <span className={`grid h-10 w-10 flex-none place-items-center rounded-xl border transition-colors ${active ? "border-[#DF2A36]/40 bg-[#DF2A36]/15 text-[#E6EED6]" : "border-white/10 bg-white/[0.03] text-neutral-400 group-hover:text-neutral-200"}`}>
                     <Icon className="h-[18px] w-[18px]" strokeWidth={1.75} />
                   </span>
                   <span className="flex min-w-0 flex-col">
                     <span className="text-[17px] font-medium leading-tight">{t(`${id}.label`)}</span>
                     <span className="mt-0.5 text-[13px] text-neutral-500">{t(`${id}.hint`)}</span>
                   </span>
-                  {active && <span aria-hidden="true" className="ml-auto h-1.5 w-1.5 rounded-full bg-cyan-300 shadow-[0_0_10px_rgba(103,232,249,0.9)]" />}
+                  {active && <span aria-hidden="true" className="ml-auto h-1.5 w-1.5 rounded-full bg-[#DF2A36] shadow-[0_0_10px_rgba(223,42,54,0.9)]" />}
                 </Link>
               );
             })}

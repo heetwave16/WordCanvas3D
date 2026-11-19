@@ -27,7 +27,7 @@ export function ShareBar({ buttonClass }) {
   const [copied, setCopied] = useState(false);
   const share = async () => {
     if (navigator.share) {
-      try { await navigator.share({ title: "WordCanvas3D", text: SHARE_TEXT, url: SITE_URL }); } catch {}
+      try { await navigator.share({ title: "ToKens", text: SHARE_TEXT, url: SITE_URL }); } catch {}
       return;
     }
     await navigator.clipboard.writeText(SITE_URL);

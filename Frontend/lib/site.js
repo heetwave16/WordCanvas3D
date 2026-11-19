@@ -5,7 +5,7 @@ const DEFAULT_LOCALE = routing.defaultLocale;
 
 // One place for the public URL and the copy search engines and link previews see.
 export const SITE_URL = "https://wordcanvas3d.vercel.app";
-export const SITE_NAME = "WordCanvas3D";
+export const SITE_NAME = "ToKens";
 export const AUTHOR = { name: "Akage", url: "https://github.com/Akage1234" };
 export const REPO_URL = "https://github.com/Akage1234/WordCanvas3D";
 

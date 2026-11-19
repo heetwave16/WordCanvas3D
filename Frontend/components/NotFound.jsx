@@ -15,7 +15,7 @@ export default function NotFound() {
   const t = useTranslations("NotFound");
   return (
     <main className={`${s.page} flex min-h-[70vh] items-center`}>
-      <title>{`${t("title")} · WordCanvas3D`}</title>
+      <title>{`${t("title")} · ToKens`}</title>
       <div className={`${s.wrap} ${s.center} py-16`}>
         <div className="mb-8 flex justify-center gap-2 font-mono" aria-hidden="true">
           {CHIPS.map(([text, color, id], i) => (

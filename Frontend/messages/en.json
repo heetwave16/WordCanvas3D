@@ -9,7 +9,7 @@
     "article": { "kicker": "{minutes} MIN READ", "learn": "Learn" }
   },
   "Metadata": {
-    "title": "WordCanvas3D · See how AI reads text",
+    "title": "ToKens · See how AI reads text",
     "description": "A free, interactive playground for how AI reads text: split text into tokens, explore word embeddings in 3D, do vector math with meaning, and learn how language models work.",
     "keywords": ["tokenizer", "token counter", "word embeddings", "embedding visualizer", "vector arithmetic", "king - man + woman", "PCA", "UMAP", "GloVe", "Word2Vec", "FastText", "how LLMs work", "transformer", "attention", "learn AI"],
     "ogLocale": "en_US"
@@ -23,10 +23,10 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "drawerTitle": "Navigation",
-    "drawerDescription": "Pages on WordCanvas3D",
+    "drawerDescription": "Pages on ToKens",
     "sourceCode": "Source code on GitHub",
     "madeBy": "Made by @Akage",
-    "repoLabel": "WordCanvas3D on GitHub",
+    "repoLabel": "ToKens on GitHub",
     "authorLabel": "About the author, @Akage",
     "languageLabel": "Language: English"
   },
@@ -40,7 +40,7 @@
       ["Do math with", "meaning."],
       ["Every word has", "a place."]
     ],
-    "pitch": "<strong>WordCanvas3D</strong> is a free playground for how AI understands text. Tokenize it, map it in 3D, and do math with meaning, right in your browser.",
+    "pitch": "<strong>ToKens</strong> is a free playground for how AI understands text. Tokenize it, map it in 3D, and do math with meaning, right in your browser.",
     "exploreCta": "Explore embeddings",
     "tokenizeCta": "Tokenize text",
     "tokenizeChips": ["Token", "ize", " text"],
@@ -75,10 +75,10 @@
     "oss": {
       "kicker": "Open source",
       "title": "Built in the open.",
-      "sub": "Every line of WordCanvas3D is on GitHub. Read how it works, run it locally, open an issue, or send a pull request.",
+      "sub": "Every line of ToKens is on GitHub. Read how it works, run it locally, open an issue, or send a pull request.",
       "github": "View on GitHub",
       "star": "Star the repo",
-      "terminalLabel": "Commands to run WordCanvas3D locally",
+      "terminalLabel": "Commands to run ToKens locally",
       "terminalComment": "# run it on your machine",
       "ready": "✓ Ready on http://localhost:3000"
     },
@@ -88,21 +88,21 @@
       "sub": "Free, no ads, no sign-up. If it helped, pass it on to a friend."
     },
     "footer": {
-      "copyright": "© 2026 WordCanvas3D",
+      "copyright": "© 2026 ToKens",
       "madeWith": "Made with <heart></heart> by <author>@Akage</author>",
       "love": "love"
     }
   },
   "Share": {
-    "text": "WordCanvas3D: see how AI reads text. Tokenize it, map words in 3D and do math with meaning, free in your browser.",
-    "button": "Share WordCanvas3D",
+    "text": "ToKens: see how AI reads text. Tokenize it, map words in 3D and do math with meaning, free in your browser.",
+    "button": "Share ToKens",
     "copied": "Link copied",
     "shareOn": "or share on"
   },
   "Learn": {
     "title": "Learn",
     "metaTitle": "Learn: how language models read text",
-    "description": "Beginner-friendly articles on how language models read text: tokens, embeddings, attention and transformers, plus quick guides to each WordCanvas3D tool.",
+    "description": "Beginner-friendly articles on how language models read text: tokens, embeddings, attention and transformers, plus quick guides to each ToKens tool.",
     "heading": "Understand what you’re looking at.",
     "sub": "How language models read text, from the very first step to the next word they write.",
     "sectionsLabel": "Sections on this page",
@@ -128,7 +128,7 @@
     "tracks": {
       "start": { "title": "Start here", "blurb": "No background needed. The whole journey from your text to the model's answer, in one picture." },
       "foundations": { "title": "Foundations", "blurb": "General study material. Each article explains one idea properly, the way a good textbook chapter would." },
-      "guides": { "title": "Site guides", "blurb": "Quick tours of what each WordCanvas3D tool shows, with links back to the foundations." }
+      "guides": { "title": "Site guides", "blurb": "Quick tours of what each ToKens tool shows, with links back to the foundations." }
     },
     "back": "← Learn · {track}",
     "tryIt": "Try it yourself",

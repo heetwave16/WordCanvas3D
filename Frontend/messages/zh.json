@@ -9,7 +9,7 @@
     "article": { "kicker": "{minutes} 分钟阅读", "learn": "学习" }
   },
   "Metadata": {
-    "title": "WordCanvas3D · 看看 AI 如何读懂文字",
+    "title": "ToKens · 看看 AI 如何读懂文字",
     "description": "一个免费的交互式实验场，带你了解 AI 如何读懂文字：把文字切分成词元（token），在 3D 中探索词嵌入，用含义做向量运算，并学习语言模型的工作原理。",
     "keywords": ["分词器", "词元计数", "词嵌入", "词嵌入可视化", "向量运算", "king - man + woman", "PCA", "UMAP", "GloVe", "Word2Vec", "FastText", "大语言模型原理", "Transformer", "注意力机制", "学习 AI"],
     "ogLocale": "zh_CN"
@@ -23,10 +23,10 @@
     "openMenu": "打开菜单",
     "closeMenu": "关闭菜单",
     "drawerTitle": "导航",
-    "drawerDescription": "WordCanvas3D 的页面",
+    "drawerDescription": "ToKens 的页面",
     "sourceCode": "GitHub 上的源代码",
     "madeBy": "作者 @Akage",
-    "repoLabel": "GitHub 上的 WordCanvas3D",
+    "repoLabel": "GitHub 上的 ToKens",
     "authorLabel": "关于作者 @Akage",
     "languageLabel": "语言：中文"
   },
@@ -40,7 +40,7 @@
       ["用含义", "做数学。"],
       ["每个词都有", "自己的位置。"]
     ],
-    "pitch": "<strong>WordCanvas3D</strong> 是一个免费的实验场，带你了解 AI 如何理解文字。把文字切分成词元（token），在 3D 中查看它们，用含义做数学，一切都在浏览器中完成。",
+    "pitch": "<strong>ToKens</strong> 是一个免费的实验场，带你了解 AI 如何理解文字。把文字切分成词元（token），在 3D 中查看它们，用含义做数学，一切都在浏览器中完成。",
     "exploreCta": "探索词嵌入",
     "tokenizeCta": "切分文字",
     "tokenizeChips": ["Token", "ize", " text"],
@@ -75,10 +75,10 @@
     "oss": {
       "kicker": "开源",
       "title": "公开构建。",
-      "sub": "WordCanvas3D 的每一行代码都在 GitHub 上。看看它如何运作、在本地运行、提交 issue，或发送 pull request。",
+      "sub": "ToKens 的每一行代码都在 GitHub 上。看看它如何运作、在本地运行、提交 issue，或发送 pull request。",
       "github": "在 GitHub 上查看",
       "star": "给仓库点星",
-      "terminalLabel": "在本地运行 WordCanvas3D 的命令",
+      "terminalLabel": "在本地运行 ToKens 的命令",
       "terminalComment": "# 在你的电脑上运行",
       "ready": "✓ 已就绪：http://localhost:3000"
     },
@@ -88,21 +88,21 @@
       "sub": "免费、无广告、无需注册。如果对你有帮助，就转给朋友吧。"
     },
     "footer": {
-      "copyright": "© 2026 WordCanvas3D",
+      "copyright": "© 2026 ToKens",
       "madeWith": "由 <author>@Akage</author> 用 <heart></heart> 制作",
       "love": "爱"
     }
   },
   "Share": {
-    "text": "WordCanvas3D：看看 AI 如何读懂文字。切分词元、在 3D 中查看词语、用含义做数学，在浏览器中免费使用。",
-    "button": "分享 WordCanvas3D",
+    "text": "ToKens：看看 AI 如何读懂文字。切分词元、在 3D 中查看词语、用含义做数学，在浏览器中免费使用。",
+    "button": "分享 ToKens",
     "copied": "链接已复制",
     "shareOn": "或分享到"
   },
   "Learn": {
     "title": "学习",
     "metaTitle": "学习：语言模型如何读懂文字",
-    "description": "面向初学者的文章，讲解语言模型如何读懂文字：词元（token）、嵌入、注意力和 Transformer，还有每个 WordCanvas3D 工具的快速指南。",
+    "description": "面向初学者的文章，讲解语言模型如何读懂文字：词元（token）、嵌入、注意力和 Transformer，还有每个 ToKens 工具的快速指南。",
     "heading": "看懂你看到的一切。",
     "sub": "语言模型如何读懂文字：从最初的一步，到它写出的下一个词。",
     "sectionsLabel": "本页章节",
@@ -128,7 +128,7 @@
     "tracks": {
       "start": { "title": "从这里开始", "blurb": "无需任何基础。用一张图看懂从你的文字到模型回答的完整过程。" },
       "foundations": { "title": "基础知识", "blurb": "通用学习资料。每篇文章把一个概念讲透，就像一本好教材的一章。" },
-      "guides": { "title": "站点指南", "blurb": "快速了解每个 WordCanvas3D 工具展示了什么，并链接回基础知识。" }
+      "guides": { "title": "站点指南", "blurb": "快速了解每个 ToKens 工具展示了什么，并链接回基础知识。" }
     },
     "back": "← 学习 · {track}",
     "tryIt": "亲自试试",

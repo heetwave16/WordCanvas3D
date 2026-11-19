@@ -9,7 +9,7 @@
     "article": { "kicker": "{minutes} MIN DE LECTURA", "learn": "Aprender" }
   },
   "Metadata": {
-    "title": "WordCanvas3D · Mira cómo la IA lee el texto",
+    "title": "ToKens · Mira cómo la IA lee el texto",
     "description": "Un espacio interactivo y gratuito para ver cómo la IA lee el texto: divide el texto en tokens, explora embeddings de palabras en 3D, haz aritmética vectorial con el significado y aprende cómo funcionan los modelos de lenguaje.",
     "keywords": ["tokenizador", "contador de tokens", "embeddings de palabras", "visualizador de embeddings", "aritmética vectorial", "king - man + woman", "PCA", "UMAP", "GloVe", "Word2Vec", "FastText", "cómo funcionan los LLM", "transformer", "atención", "aprender IA"],
     "ogLocale": "es_LA"
@@ -23,10 +23,10 @@
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
     "drawerTitle": "Navegación",
-    "drawerDescription": "Páginas de WordCanvas3D",
+    "drawerDescription": "Páginas de ToKens",
     "sourceCode": "Código fuente en GitHub",
     "madeBy": "Hecho por @Akage",
-    "repoLabel": "WordCanvas3D en GitHub",
+    "repoLabel": "ToKens en GitHub",
     "authorLabel": "Sobre el autor, @Akage",
     "languageLabel": "Idioma: español"
   },
@@ -40,7 +40,7 @@
       ["Haz matemáticas con", "el significado."],
       ["Cada palabra tiene", "su lugar."]
     ],
-    "pitch": "<strong>WordCanvas3D</strong> es un espacio gratuito para explorar cómo la IA entiende el texto. Divídelo en tokens, ubícalo en 3D y haz matemáticas con el significado, directo en tu navegador.",
+    "pitch": "<strong>ToKens</strong> es un espacio gratuito para explorar cómo la IA entiende el texto. Divídelo en tokens, ubícalo en 3D y haz matemáticas con el significado, directo en tu navegador.",
     "exploreCta": "Explorar embeddings",
     "tokenizeCta": "Tokenizar texto",
     "tokenizeChips": ["Token", "ize", " text"],
@@ -75,10 +75,10 @@
     "oss": {
       "kicker": "Código abierto",
       "title": "Hecho a la vista de todos.",
-      "sub": "Cada línea de WordCanvas3D está en GitHub. Lee cómo funciona, ejecútalo en tu computadora, abre un issue o envía un pull request.",
+      "sub": "Cada línea de ToKens está en GitHub. Lee cómo funciona, ejecútalo en tu computadora, abre un issue o envía un pull request.",
       "github": "Ver en GitHub",
       "star": "Dale una estrella al repo",
-      "terminalLabel": "Comandos para ejecutar WordCanvas3D en tu computadora",
+      "terminalLabel": "Comandos para ejecutar ToKens en tu computadora",
       "terminalComment": "# ejecútalo en tu máquina",
       "ready": "✓ Listo en http://localhost:3000"
     },
@@ -88,21 +88,21 @@
       "sub": "Gratis, sin anuncios, sin registro. Si te sirvió, pásaselo a un amigo."
     },
     "footer": {
-      "copyright": "© 2026 WordCanvas3D",
+      "copyright": "© 2026 ToKens",
       "madeWith": "Hecho con <heart></heart> por <author>@Akage</author>",
       "love": "amor"
     }
   },
   "Share": {
-    "text": "WordCanvas3D: mira cómo la IA lee el texto. Divídelo en tokens, ubica palabras en 3D y haz matemáticas con el significado, gratis en tu navegador.",
-    "button": "Compartir WordCanvas3D",
+    "text": "ToKens: mira cómo la IA lee el texto. Divídelo en tokens, ubica palabras en 3D y haz matemáticas con el significado, gratis en tu navegador.",
+    "button": "Compartir ToKens",
     "copied": "Enlace copiado",
     "shareOn": "o comparte en"
   },
   "Learn": {
     "title": "Aprender",
     "metaTitle": "Aprender: cómo los modelos de lenguaje leen el texto",
-    "description": "Artículos para principiantes sobre cómo los modelos de lenguaje leen el texto: tokens, embeddings, atención y transformers, además de guías rápidas de cada herramienta de WordCanvas3D.",
+    "description": "Artículos para principiantes sobre cómo los modelos de lenguaje leen el texto: tokens, embeddings, atención y transformers, además de guías rápidas de cada herramienta de ToKens.",
     "heading": "Entiende lo que estás viendo.",
     "sub": "Cómo los modelos de lenguaje leen el texto, desde el primer paso hasta la siguiente palabra que escriben.",
     "sectionsLabel": "Secciones de esta página",
@@ -128,7 +128,7 @@
     "tracks": {
       "start": { "title": "Empieza aquí", "blurb": "No necesitas conocimientos previos. Todo el recorrido, desde tu texto hasta la respuesta del modelo, en una sola imagen." },
       "foundations": { "title": "Fundamentos", "blurb": "Material de estudio general. Cada artículo explica bien una idea, como lo haría un buen capítulo de libro de texto." },
-      "guides": { "title": "Guías del sitio", "blurb": "Recorridos rápidos de lo que muestra cada herramienta de WordCanvas3D, con enlaces a los fundamentos." }
+      "guides": { "title": "Guías del sitio", "blurb": "Recorridos rápidos de lo que muestra cada herramienta de ToKens, con enlaces a los fundamentos." }
     },
     "back": "← Aprender · {track}",
     "tryIt": "Pruébalo tú mismo",

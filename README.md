@@ -1,13 +1,13 @@
-# <img src="Frontend/public/logo.png" alt="WordCanvas3D logo" width="28" style="vertical-align: middle;" /> WordCanvas3D
+# <img src="Frontend/public/logo.png" alt="ToKens logo" width="28" style="vertical-align: middle;" /> ToKens
 
 **See how AI reads text.**
 
-WordCanvas3D is a free, open-source playground for how language models understand text. Cut a sentence into tokens, fly through thousands of words in 3D, do arithmetic with meaning, and learn how it all fits together, right in your browser. No sign-up, no ads.
+ToKens is a free, open-source playground for how language models understand text. Cut a sentence into tokens, fly through thousands of words in 3D, do arithmetic with meaning, and learn how it all fits together, right in your browser. No sign-up, no ads.
 
 ➡️ **Try it live:** [wordcanvas3d.vercel.app](https://wordcanvas3d.vercel.app)
 
 <p align="center">
-  <img src="docs/readme/hero.gif" alt="WordCanvas3D home page: a rotating galaxy of words" width="100%" />
+  <img src="docs/readme/hero.gif" alt="ToKens home page: a rotating galaxy of words" width="100%" />
 </p>
 
 ---
