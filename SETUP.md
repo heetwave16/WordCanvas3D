@@ -1,4 +1,4 @@
-# WordCanvas3D – Technical Setup and Deployment
+# ToKens – Technical Setup and Deployment
 
 This document covers local development, production builds, deployment options, and the backend data preprocessing pipeline (Python notebooks/scripts) used to create the embedding datasets consumed by the frontend.
 

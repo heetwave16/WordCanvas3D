@@ -3,7 +3,7 @@ import { routing } from "@/i18n/routing";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
-export const alt = "WordCanvas3D Embedding explorer";
+export const alt = "ToKens Embedding explorer";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

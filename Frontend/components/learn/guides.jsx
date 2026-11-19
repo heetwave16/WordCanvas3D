@@ -612,7 +612,7 @@ function KingManWoman() {
   );
 }
 
-// Site guides: short tours of what each WordCanvas3D tool shows.
+// Site guides: short tours of what each ToKens tool shows.
 // Metadata for these guides lives in ./catalog.js.
 export const GUIDE_BODIES = {
   "what-is-a-token": WhatIsAToken,
@@ -626,7 +626,7 @@ export const GUIDE_BODIES = {
 export const GUIDE_FAQ = {
   "what-is-a-token": [
     { q: "What is a token in ChatGPT?", a: "A token is the unit of text ChatGPT reads and writes. Common words are usually a single token, often including the space in front of them, while rare words are split into pieces. Each token has an ID, and usage limits and API prices are counted in tokens, not words." },
-    { q: "How do I count the tokens in my text?", a: "Paste the text into a tokenizer tool, such as the WordCanvas3D Tokenizer, which shows every token and its ID for several real tokenizers. In code, OpenAI’s tiktoken library counts tokens for GPT models. Counts differ between models because each one has its own vocabulary." },
+    { q: "How do I count the tokens in my text?", a: "Paste the text into a tokenizer tool, such as the ToKens Tokenizer, which shows every token and its ID for several real tokenizers. In code, OpenAI’s tiktoken library counts tokens for GPT models. Counts differ between models because each one has its own vocabulary." },
     { q: "Is a space part of a token?", a: "Usually, yes. GPT-style tokenizers attach the space to the start of the following word, so “ cat” with a space and “cat” without one are different tokens with different IDs. Capitalisation changes the token too: “Cat” is another separate entry." },
     { q: "Why does the same word get split differently?", a: "Splits depend on the tokenizer’s vocabulary and on context such as a leading space or a capital letter. “unbelievable” at the very start of a text is three pieces in o200k_base, while “ unbelievable” after a space is a single token. Different models also have different vocabularies." },
   ],
@@ -651,7 +651,7 @@ export const GUIDE_FAQ = {
   "king-man-woman": [
     { q: "What does king − man + woman = queen mean?", a: "It is a famous result from word embeddings. Taking the vector for king, subtracting man and adding woman gives a point whose nearest word is often queen. It shows that some relationships, like male to female, appear as consistent directions in the embedding space." },
     { q: "Do word analogies always work?", a: "No. They work well for some relationships, such as gender, capital cities and verb tenses, and poorly for many others. Results are also usually reported after excluding the input words, because the nearest vector is often one of them, which makes the method look more reliable than it is." },
-    { q: "How is the analogy answer calculated?", a: "The three vectors are combined as a − b + c, and the result is compared with every word vector using cosine similarity. The closest words, excluding the three inputs, are the answers. The WordCanvas3D Vector Playground shows this calculation step by step." },
+    { q: "How is the analogy answer calculated?", a: "The three vectors are combined as a − b + c, and the result is compared with every word vector using cosine similarity. The closest words, excluding the three inputs, are the answers. The ToKens Vector Playground shows this calculation step by step." },
     { q: "Can vector arithmetic reveal bias?", a: "Yes. The same arithmetic can surface stereotypes learned from training text, for example pairing certain professions more strongly with one gender. These results reflect patterns in how people write, which is why embeddings are often tested and adjusted for bias before use." },
   ],
 };

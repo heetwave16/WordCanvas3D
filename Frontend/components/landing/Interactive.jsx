@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import styles from "./landing.module.css";
+import { SITE_URL } from "@/lib/site";
 
 export function Reveal({ as: Tag = "div", className = "", inClass = styles.revealIn, children, ...props }) {
   const ref = useRef(null);
@@ -17,8 +18,6 @@ export function Reveal({ as: Tag = "div", className = "", inClass = styles.revea
   const Comp = Tag === "link" ? Link : Tag;
   return <Comp ref={ref} className={`${className} ${shown ? inClass : ""}`} {...props}>{children}</Comp>;
 }
-
-const SITE_URL = "https://wordcanvas3d.vercel.app";
 
 // Share the site: the native share sheet where there is one, otherwise copy the link; plus a few direct links.
 export function ShareBar({ buttonClass }) {

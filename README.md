@@ -4,7 +4,7 @@
 
 ToKens is a free, open-source playground for how language models understand text. Cut a sentence into tokens, fly through thousands of words in 3D, do arithmetic with meaning, and learn how it all fits together, right in your browser. No sign-up, no ads.
 
-➡️ **Try it live:** [wordcanvas3d.vercel.app](https://wordcanvas3d.vercel.app)
+➡️ **Try it live:** [tokens-app-six.vercel.app](https://tokens-app-six.vercel.app)
 
 <p align="center">
   <img src="docs/readme/hero.gif" alt="ToKens home page: a rotating galaxy of words" width="100%" />
@@ -91,8 +91,8 @@ The interface is available in English, 中文, 日本語 and Español.
 ## 🏃 Run it locally
 
 ```bash
-git clone https://github.com/Akage1234/WordCanvas3D.git
-cd WordCanvas3D/Frontend
+git clone https://tokens-app-six.vercel.app
+cd Frontend
 npm install
 npm run dev
 ```
@@ -122,4 +122,4 @@ Issues and pull requests are welcome. Good places to start:
 
 ## 📄 License
 
-MIT. Made with ❤️ by [@Akage](https://github.com/Akage1234).
+MIT License.

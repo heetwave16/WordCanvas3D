@@ -25,9 +25,9 @@
     "drawerTitle": "导航",
     "drawerDescription": "ToKens 的页面",
     "sourceCode": "GitHub 上的源代码",
-    "madeBy": "作者 @Akage",
+    "madeBy": "ToKens",
     "repoLabel": "GitHub 上的 ToKens",
-    "authorLabel": "关于作者 @Akage",
+    "authorLabel": "关于 ToKens",
     "languageLabel": "语言：中文"
   },
   "Home": {
@@ -89,7 +89,7 @@
     },
     "footer": {
       "copyright": "© 2026 ToKens",
-      "madeWith": "由 <author>@Akage</author> 用 <heart></heart> 制作",
+      "madeWith": "由 <author>ToKens</author> 用 <heart></heart> 制作",
       "love": "爱"
     }
   },

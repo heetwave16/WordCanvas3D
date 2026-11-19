@@ -23,17 +23,6 @@ const NAV_ITEMS = [
   { id: "vectors", href: "/vector-playground", Icon: Sigma },
 ];
 
-const REPO_URL = "https://github.com/Akage1234/WordCanvas3D";
-const PROFILE_URL = "https://github.com/Akage1234";
-
-function GithubMark({ className }) {
-  return (
-    <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden="true">
-      <path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z" />
-    </svg>
-  );
-}
-
 // Language names stay in their own script. Switching keeps you on the same page.
 const LANGUAGES = [["en", "English", "EN"], ["zh", "中文", "中"], ["ja", "日本語", "日"], ["es", "Español", "ES"]];
 
@@ -89,31 +78,18 @@ function LanguageMenu({ variant = "icon", compact }) {
   );
 }
 
-// Repo and author links: a small corner cluster on wide screens, rows in the phone menu.
+// Language selector in navigation.
 function SocialLinks({ variant = "icons", compact }) {
-  const t = useTranslations("Nav");
   if (variant === "rows") {
-    const row = "flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm text-neutral-300 transition-colors hover:bg-white/[0.05] hover:text-white";
     return (
       <div className="flex flex-col gap-1">
         <LanguageMenu variant="rows" />
-        <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className={row}><GithubMark className="h-4 w-4" />{t("sourceCode")}</a>
-        <a href={PROFILE_URL} target="_blank" rel="noopener noreferrer" className={row}>
-          <img src="https://github.com/Akage1234.png?size=64" alt="" className="h-5 w-5 rounded-full" />{t("madeBy")}
-        </a>
       </div>
     );
   }
-  const btn = `inline-flex ${compact ? "h-9 w-9" : "h-10 w-10"} items-center justify-center rounded-full text-neutral-300 transition-colors hover:bg-white/10 hover:text-white ${focusRing}`;
   return (
     <div className="flex items-center gap-1">
       <LanguageMenu compact={compact} />
-      <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className={btn} aria-label={t("repoLabel")} title={t("sourceCode")}>
-        <GithubMark className="h-[18px] w-[18px]" />
-      </a>
-      <a href={PROFILE_URL} target="_blank" rel="noopener noreferrer" className={btn} aria-label={t("authorLabel")} title={t("madeBy")}>
-        <img src="https://github.com/Akage1234.png?size=64" alt="" className="h-7 w-7 rounded-full ring-1 ring-white/20" />
-      </a>
     </div>
   );
 }
@@ -271,16 +247,11 @@ export function Navbar() {
       <Logo />
       <div className="hidden md:flex items-center gap-1">
         <DesktopLinks isActive={isActive} />
-        {/* No room for the corner pill below 1280px, so the language/GitHub/profile buttons sit in the bar */}
-        <span className="mx-1 h-5 w-px bg-white/10 min-[1280px]:hidden" aria-hidden="true" />
-        <div className="min-[1280px]:hidden"><SocialLinks compact /></div>
+        <span className="mx-1 h-5 w-px bg-white/10" aria-hidden="true" />
+        <SocialLinks compact />
       </div>
       <MobileMenu isActive={isActive} />
     </nav>
-    {/* Outside the bar: its backdrop-filter would make it the containing block for this fixed cluster */}
-    <div className={`fixed top-3 right-4 z-50 hidden min-[1280px]:block rounded-full p-1 ${glass}`}>
-      <SocialLinks />
-    </div>
     </>
   );
 }

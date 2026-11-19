@@ -1,20 +1,17 @@
 # Project Status
 
-## Active Task: Rename App to ToKens & Apply Custom Color Theme
+## Active Task: Rename App to ToKens, Custom Color Theme & Top-Right GitHub Bar Removal
 
 ### Overview
-Update the application name from `WordCanvas3D` to `ToKens`, and apply the user-specified color palette across the UI:
-- **Midnight Violet**: `#210124`
-- **Dark Teal**: `#0B3C49`
-- **Scarlet Rush**: `#DF2A36`
-- **Beige**: `#E6EED6`
-- **Silver**: `#B3B6B7`
-
-Target UI scopes:
-1. Primary accent highlights (buttons, badges, active tabs, loader)
-2. Navbar styling and brand text
-3. Landing page hero gradients and glow effects
-4. Keeping other UI elements clean and minimal
+1. Update the application name from `WordCanvas3D` to `ToKens`.
+2. Apply the user-specified custom color palette across UI scopes:
+   - **Midnight Violet**: `#210124`
+   - **Dark Teal**: `#0B3C49`
+   - **Scarlet Rush**: `#DF2A36`
+   - **Beige**: `#E6EED6`
+   - **Silver**: `#B3B6B7`
+3. Remove the floating GitHub bar in the top-right corner of the navbar.
+4. Run locally and deploy to Vercel production.
 
 ### Affected Files
 - `STATUS.md`
@@ -31,32 +28,32 @@ Target UI scopes:
 - `README.md`
 
 ### Completed Changes
-1. **App Renaming (`renamer`)**:
-   - `Frontend/lib/site.js`: `SITE_NAME` changed from `WordCanvas3D` to `ToKens`.
-   - `Frontend/messages/{en,zh,ja,es}.json`: Updated app titles, pitch descriptions, drawer descriptions, GitHub labels, copyright notices, and share strings across all supported languages.
-   - `Frontend/components/NotFound.jsx`: Page title updated to use `ToKens`.
+1. **App Renaming**:
+   - `Frontend/lib/site.js`: `SITE_NAME` updated to `ToKens`.
+   - `Frontend/messages/{en,zh,ja,es}.json`: Updated app titles, pitch descriptions, drawer descriptions, copyright notices, and share strings across all supported languages.
+   - `Frontend/components/NotFound.jsx`: Page title updated to `ToKens`.
    - `Frontend/components/landing/Interactive.jsx`: Web share fallback title updated to `ToKens`.
-   - `README.md`: Header and introductory paragraphs updated to reflect `ToKens`.
+   - `README.md`: Header and documentation updated to reflect `ToKens`.
 
-2. **Custom Color Palette (`themer`)**:
-   - `Frontend/styles/globals.css`: Updated `:root` and `.dark` CSS variables with Midnight Violet (`#210124`), Dark Teal (`#0B3C49`), Scarlet Rush (`#DF2A36`), Beige (`#E6EED6`), and Silver (`#B3B6B7`). Updated `.loader-hl` color to Scarlet Rush, and custom scrollbar track/thumb hover colors.
-   - `Frontend/components/landing/landing.module.css`: Updated hero background radial glow to blend Midnight Violet and Dark Teal; serif heading shimmer gradient incorporates the full 5-color palette; explore CTA button uses Scarlet Rush and Dark Teal gradient with Beige border; lens accents, device glow, and terminal prompt styled with theme colors.
-   - `Frontend/components/Navbar.jsx`: Brand logo updated to "To" + gradient "Kens" (`from-[#DF2A36] via-[#B3B6B7] to-[#0B3C49]`), active navigation tabs styled with Scarlet Rush and Beige with subtle glow, and focus rings set to Scarlet Rush.
+2. **Custom Color Palette**:
+   - `Frontend/styles/globals.css`: Updated theme tokens (`:root` and `.dark`) with Midnight Violet, Dark Teal, Scarlet Rush, Beige, and Silver; updated `.loader-hl` and custom scrollbars.
+   - `Frontend/components/landing/landing.module.css`: Ambient hero glow using Midnight Violet & Dark Teal; serif shimmer gradient across the 5-color palette; explore CTA button with Scarlet Rush/Dark Teal gradient; orbit particles, kickers, and terminal highlights aligned.
+   - `Frontend/components/Navbar.jsx`: Brand logo updated to "To" + gradient "Kens" (`from-[#DF2A36] via-[#B3B6B7] to-[#0B3C49]`), active tabs styled with Scarlet Rush and Dark Teal glow, focus rings updated to Scarlet Rush.
+
+3. **Top-Right GitHub Bar Removal**:
+   - `Frontend/components/Navbar.jsx`:
+     - Removed the external floating corner cluster (`fixed top-3 right-4 z-50 ...`).
+     - Removed GitHub repository link (`GithubMark`, `REPO_URL`) and author avatar link (`PROFILE_URL`).
+     - Kept and neatly integrated `LanguageMenu` directly inside the primary navigation bar.
+
+4. **Local Execution & Vercel Production Deployment**:
+   - Local dev server: Running at `http://localhost:3000`.
+   - Vercel production deployment: Deployed to `https://tokens-app-six.vercel.app` (`https://tokens-app-heetwave16.vercel.app`).
 
 ### Verification & Test Results
-- `node Frontend/scripts/check-messages.mjs zh ja es`:
-  - `zh`: 441 entries checked (pass, 0 missing/orphaned keys)
-  - `ja`: 441 entries checked (pass, 0 missing/orphaned keys)
-  - `es`: 441 entries checked (pass, 0 missing/orphaned keys)
-- Message JSON syntax validation:
-  - Validated `en.json`, `zh.json`, `ja.json`, `es.json` with `JSON.parse` — all passed without syntax errors.
-- JS syntax check:
-  - `node --check Frontend/lib/site.js` — passed.
-- Diff inspection:
-  - Verified no syntax errors, unescaped characters, or broken component tags across all modified JSX, CSS, JSON, and Markdown files.
-
-### Residual Risks & Notes
-- External repository and deployment URLs (`https://wordcanvas3d.vercel.app` and `https://github.com/Akage1234/WordCanvas3D`) remain unchanged in `Frontend/lib/site.js` and `README.md` to prevent broken external hyperlinks until repository or domain re-hosting is conducted.
+- `node Frontend/scripts/check-messages.mjs zh ja es`: 441 entries validated per locale (0 missing keys, 0 tag mismatches).
+- Production build: `next build --webpack` completed successfully (157 static pages compiled without errors).
+- Vercel Deployment check: `readyState: "READY"`, aliases verified and responding live.
 
 ### Current Status
-- Status: **VERIFIED & COMPLETED**
+- Status: **DEPLOYED & RUNNING**

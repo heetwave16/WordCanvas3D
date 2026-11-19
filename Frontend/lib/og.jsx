@@ -82,7 +82,7 @@ async function card({ left, right, kicker, accent = CYAN, glow = "#1d4ed8", left
             <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
               <img src={src} width={46} height={46} alt="" />
               <div style={{ display: "flex", fontSize: 30, fontWeight: 800, letterSpacing: -0.5 }}>
-                <span>Word</span><span style={{ color: CYAN }}>Canvas3D</span>
+                <span>To</span><span style={{ color: CYAN }}>Kens</span>
               </div>
             </div>
             {kicker && (
@@ -92,7 +92,7 @@ async function card({ left, right, kicker, accent = CYAN, glow = "#1d4ed8", left
           {/* A fragment would be laid out as a row by the renderer, so unwrap it into this column. */}
           <div style={{ display: "flex", flexDirection: "column", width: leftWidth }}>{left?.type === Fragment ? left.props.children : left}</div>
           <div style={{ display: "flex", alignItems: "center", gap: 14, fontSize: 21, color: DIM }}>
-            <span>wordcanvas3d.vercel.app</span>
+            <span>tokens-app-six.vercel.app</span>
             <span style={{ width: 5, height: 5, borderRadius: 5, background: "#3a4252" }} />
             <span>{footer}</span>
           </div>

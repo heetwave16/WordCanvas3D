@@ -3,7 +3,7 @@ import { routing } from "@/i18n/routing";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
-export const alt = "WordCanvas3D Tokenizer";
+export const alt = "ToKens Tokenizer";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

@@ -4,10 +4,10 @@ const LOCALES = routing.locales;
 const DEFAULT_LOCALE = routing.defaultLocale;
 
 // One place for the public URL and the copy search engines and link previews see.
-export const SITE_URL = "https://wordcanvas3d.vercel.app";
+export const SITE_URL = "https://tokens-app-six.vercel.app";
 export const SITE_NAME = "ToKens";
-export const AUTHOR = { name: "Akage", url: "https://github.com/Akage1234" };
-export const REPO_URL = "https://github.com/Akage1234/WordCanvas3D";
+export const AUTHOR = { name: "ToKens", url: "https://tokens-app-six.vercel.app" };
+export const REPO_URL = "https://tokens-app-six.vercel.app";
 
 // Only the real production site should be indexed; previews and the v2 staging project stay out of search.
 export const INDEXABLE =

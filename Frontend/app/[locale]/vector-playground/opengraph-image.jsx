@@ -3,7 +3,7 @@ import { routing } from "@/i18n/routing";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
-export const alt = "WordCanvas3D Vector Playground";
+export const alt = "ToKens Vector Playground";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

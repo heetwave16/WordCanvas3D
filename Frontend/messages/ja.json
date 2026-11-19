@@ -25,9 +25,9 @@
     "drawerTitle": "ナビゲーション",
     "drawerDescription": "ToKens のページ",
     "sourceCode": "GitHub のソースコード",
-    "madeBy": "作者: @Akage",
+    "madeBy": "ToKens",
     "repoLabel": "GitHub の ToKens",
-    "authorLabel": "作者 @Akage について",
+    "authorLabel": "ToKens について",
     "languageLabel": "言語: 日本語"
   },
   "Home": {
@@ -89,7 +89,7 @@
     },
     "footer": {
       "copyright": "© 2026 ToKens",
-      "madeWith": "<author>@Akage</author> が <heart></heart> を込めて制作",
+      "madeWith": "<author>ToKens</author> が <heart></heart> を込めて制作",
       "love": "愛"
     }
   },

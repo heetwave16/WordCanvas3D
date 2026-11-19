@@ -5,7 +5,7 @@ import { ogArticle, OG_SIZE } from "@/lib/og";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
-export const alt = "WordCanvas3D Learn article";
+export const alt = "ToKens Learn article";
 
 // Image routes don't inherit the layout's locale params, so list every locale × slug here.
 export function generateStaticParams() {

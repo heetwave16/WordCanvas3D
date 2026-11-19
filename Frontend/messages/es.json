@@ -25,9 +25,9 @@
     "drawerTitle": "Navegación",
     "drawerDescription": "Páginas de ToKens",
     "sourceCode": "Código fuente en GitHub",
-    "madeBy": "Hecho por @Akage",
+    "madeBy": "ToKens",
     "repoLabel": "ToKens en GitHub",
-    "authorLabel": "Sobre el autor, @Akage",
+    "authorLabel": "Sobre ToKens",
     "languageLabel": "Idioma: español"
   },
   "Home": {
@@ -89,7 +89,7 @@
     },
     "footer": {
       "copyright": "© 2026 ToKens",
-      "madeWith": "Hecho con <heart></heart> por <author>@Akage</author>",
+      "madeWith": "Hecho con <heart></heart> por <author>ToKens</author>",
       "love": "amor"
     }
   },

@@ -26,8 +26,8 @@ const schema = (description, locale) => [
 
 const serif = Instrument_Serif({ weight: "400", style: "italic", subsets: ["latin"] });
 
-const REPO = "https://github.com/Akage1234/WordCanvas3D";
-const AUTHOR = "https://www.linkedin.com/in/ajay-kumar-0a024521a";
+const REPO = REPO_URL;
+const AUTHOR = SITE_URL;
 
 const Arrow = ({ size }) => (
   <svg viewBox="0 0 24 24" width={size} fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -167,11 +167,11 @@ export default async function Home({ params }) {
               </div>
             </div>
             <div className={s.terminal} aria-label={t("oss.terminalLabel")}>
-              <div className={s.termBar}><i /><i /><i /><span>Akage1234/WordCanvas3D</span></div>
+              <div className={s.termBar}><i /><i /><i /><span>tokens-app</span></div>
               <pre>
                 <span className={s.cmt}>{t("oss.terminalComment")}</span>{"\n"}
                 <span className={s.prompt}>$</span> git clone {REPO}{"\n"}
-                <span className={s.prompt}>$</span> cd WordCanvas3D/Frontend{"\n"}
+                <span className={s.prompt}>$</span> cd tokens-app/Frontend{"\n"}
                 <span className={s.prompt}>$</span> npm install{"\n"}
                 <span className={s.prompt}>$</span> npm run dev{"\n"}
                 <span className={s.ok}>{t("oss.ready")}</span><span className={s.caret} />
